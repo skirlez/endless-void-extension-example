@@ -1,0 +1,5 @@
+meta:
+targets = 'gml_Object_obj_ev_editor_Create_0'
+patch:
+find_line_with('tiles_list = ')
+write('ev_ext_example_entrypoint()')
