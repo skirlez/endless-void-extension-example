@@ -4,16 +4,16 @@
     "description" : "An example mod to demonstrate how Endless Void can be extended",
     "credits" : ["skirlez"],
     "version" : "1.0.0",
-    "target_game_version" : "1.1.3",
-    "target_patcher_version" : "4",
+    "target_g3man_version" : 6,
     "depends" : [ 
         {
-            "mod_id" : "ev",
-            "versions" : ["1.0"],
-            "order" : "before_us"
+          "mod_id" : "ev",
+          "versions" : ["0.9.98"],
+          "order" : "before_us"
         }
     ],
     "breaks" : [],
+
     "patches" : [
         {
             "type" : "gmlp",
